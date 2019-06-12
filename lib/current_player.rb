@@ -1,7 +1,7 @@
 def turn_count(board)
   n = 0
  board.each {
-   |cell| cell == " "
+   |cell| cell != " "
    n += 1
  }
  return = n
