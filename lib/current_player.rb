@@ -4,7 +4,7 @@ def turn_count(board)
    |cell| cell != " "
    n += 1
  }
- return = n
+ return n
 end
 
 def current_player
